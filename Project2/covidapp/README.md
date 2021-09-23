@@ -7,5 +7,6 @@ Finally, this is my second project in my Software Engineering training, so many 
 APIs:  https://disease.sh/v3/covid-19/vaccine/coverage/countries?lastdays=1
        
        https://corona.lmao.ninja/v2/countries/
+       
        https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places
 
