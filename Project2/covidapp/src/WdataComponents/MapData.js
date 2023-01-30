@@ -27,7 +27,7 @@ const MapData = ({center, zoom}) => {
         <div style={{height:'90%', width:'90%'}} id='map'>
             
             <GoogleMapReact
-            //The Google API was removed to prevent it from being used by third parties.
+            bootstrapURLKeys={{key:'AIzaSyCsKRTWdedWzFhmR2mCbSLOpKwC8LXIghk'}} //The Google API was removed to prevent it from being used by third parties.
             defaultCenter={center}
             defaultZoom={zoom}
             >

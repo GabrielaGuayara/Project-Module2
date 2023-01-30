@@ -16,6 +16,7 @@ nav{
     flex-direction: row;
     justify-content: space-between; 
     height: 50px;
+    font-size: 15px;
 }
 
 h1{
@@ -75,13 +76,13 @@ a{
     display: grid;
     grid-template-columns: 0.4fr 1fr 0.4fr;
     grid-template-rows: 50px 1fr;
-    background-image: linear-gradient(120deg, #fdfbfbad 0%, #ebedee73 100%), url(../img/login.jpg) ;
+    background-image: linear-gradient(120deg, #fdfbfb50 0%, #ebedee4f 100%), url(../img/login.jpg) ;
     background-position:bottom; 
 }
 .div_form{
     grid-column: 2/3;
     margin: auto;
-    border:whitesmoke solid;
+    border:rgba(245, 245, 245, 0.568) solid;
     color: whitesmoke;
     height: 70%;
     width: 80%;
@@ -179,5 +180,9 @@ h4{
     }
     h4{
         font-size: 16px;
+    }
+    .nav-links{
+        font-size: 10px;
+    
     }
 }

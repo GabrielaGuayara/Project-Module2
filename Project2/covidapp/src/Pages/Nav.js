@@ -34,7 +34,7 @@ export default class Nav extends Component {
                     <ul>
                     <Link to='/Login'>
                     <li  className='logout'>
-                    Login Out
+                    Log Out
                     </li>
                     </Link>
                     </ul>

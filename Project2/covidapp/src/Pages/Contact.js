@@ -6,7 +6,7 @@ export default class ContactUs extends Component {
     sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('gmail', 'form-contact', e.target, 'USER_ID')//The USER_ID was removed to prevent it from being used by third parties.
+        emailjs.sendForm('gmail', 'form-contact', e.target, 'user_HDGAsK2rBedrtar84PVMu')//The YOUR_USER_ID was removed to prevent it from being used by third parties.
           .then(() => {
             alert("Email sent, awesome!");
           }, () => {
